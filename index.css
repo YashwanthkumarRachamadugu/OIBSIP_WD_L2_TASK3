@@ -1,0 +1,44 @@
+/* Basic styling - customize to your liking */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+#new-task-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}
+
+#add-task-button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task-lists {
+    display: flex;
+    gap: 30px;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
